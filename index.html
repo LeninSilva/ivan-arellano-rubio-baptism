@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Bautizo — Iván Arellano Rubio | October 17, 2026</title>
+<meta name="description" content="The baptism of Iván Arellano Rubio, October 17, 2026 at Mission San Juan Bautista, California, and the celebration that followed in San Juan Bautista.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <p class="script">Mi Bautizo</p>
+    <h1>Iván Arellano Rubio</h1>
+    <div class="rule"><span></span><em>✦</em><span></span></div>
+    <p class="hero-sub">Saturday, October 17, 2026</p>
+    <p class="hero-place">Mission San Juan Bautista &middot; San Juan Bautista, California</p>
+    <a class="hero-cta" href="#gallery">View the Photos</a>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sections">
+  <a href="#ready">Getting Ready</a>
+  <a href="#mission">The Mission</a>
+  <a href="#family">Family &amp; Godparents</a>
+  <a href="#celebration">The Celebration</a>
+  <a href="#videos">Videos</a>
+</nav>
+
+<main id="gallery">
+  <!-- Sections and gallery items are rendered from manifest.js so the
+       curated, deduped, enhanced set drops in without HTML edits. -->
+  <div id="sections"></div>
+
+  <section id="videos" class="section">
+    <h2><span class="script-sm">En video</span>Videos</h2>
+    <p class="section-intro">Short clips from the ceremony and the celebration, one best take of each moment.</p>
+    <div id="video-grid" class="video-grid"></div>
+  </section>
+
+  <section class="thanks">
+    <p class="script">Thank You</p>
+    <p>for celebrating with us</p>
+  </section>
+</main>
+
+<footer>
+  <p>Baptized October 17, 2026 at Mission San Juan Bautista, San Juan Bautista, California.</p>
+  <p>The celebration followed at a nearby venue in San Juan Bautista.</p>
+  <p class="fine">Photos for family. Tap any photo to view it full size and save it.</p>
+</footer>
+
+<div id="lightbox" class="lightbox" hidden role="dialog" aria-label="Photo viewer">
+  <button class="lb-close" aria-label="Close">&times;</button>
+  <button class="lb-prev" aria-label="Previous photo">&#8249;</button>
+  <img id="lb-img" alt="">
+  <p id="lb-cap"></p>
+  <a id="lb-download" href="#" download>Download this photo</a>
+  <button class="lb-next" aria-label="Next photo">&#8250;</button>
+</div>
+
+<script src="manifest.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

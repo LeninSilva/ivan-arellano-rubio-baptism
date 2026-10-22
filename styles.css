@@ -1,0 +1,51 @@
+:root{
+  --ivory:#faf7f0; --ivory-2:#f3ecdd; --navy:#1e2d4d; --navy-soft:#33507e;
+  --gold:#b9975b; --gold-soft:#d9c491; --ink:#2b2b28; --muted:#6f6a5e;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:var(--ivory);color:var(--ink);font-family:'Jost',sans-serif;font-weight:300}
+.script{font-family:'Great Vibes',cursive;color:var(--navy);margin:0}
+h1,h2{font-family:'Cormorant Garamond',serif;color:var(--navy);font-weight:600}
+.hero{min-height:92vh;display:flex;align-items:center;justify-content:center;text-align:center;
+  background:linear-gradient(rgba(250,247,240,.82),rgba(250,247,240,.94)),var(--hero-img,none) center/cover no-repeat,var(--ivory-2);
+  padding:4rem 1.25rem;border-bottom:3px double var(--gold)}
+.hero .script{font-size:clamp(3rem,9vw,5.5rem);line-height:1}
+.hero h1{font-size:clamp(2rem,6.5vw,3.8rem);margin:.4rem 0 .2rem;letter-spacing:.02em}
+.rule{display:flex;align-items:center;gap:.75rem;justify-content:center;margin:.9rem auto}
+.rule span{display:block;width:72px;height:1px;background:var(--gold)}
+.rule em{color:var(--gold);font-style:normal}
+.hero-sub{font-family:'Cormorant Garamond',serif;font-size:1.35rem;margin:.2rem 0}
+.hero-place{color:var(--muted);letter-spacing:.14em;text-transform:uppercase;font-size:.8rem}
+.hero-cta{display:inline-block;margin-top:1.6rem;padding:.7rem 1.8rem;border:1px solid var(--navy);
+  color:var(--navy);text-decoration:none;letter-spacing:.12em;text-transform:uppercase;font-size:.8rem;background:transparent}
+.hero-cta:hover{background:var(--navy);color:var(--ivory)}
+.toc{position:sticky;top:0;z-index:5;display:flex;gap:1.2rem;justify-content:center;flex-wrap:wrap;
+  background:rgba(250,247,240,.96);padding:.7rem 1rem;border-bottom:1px solid var(--gold-soft)}
+.toc a{color:var(--navy);text-decoration:none;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase}
+.section{max-width:1200px;margin:0 auto;padding:3.2rem 1.25rem .6rem}
+.section h2{font-size:2rem;margin:.1rem 0 .4rem;text-align:center}
+.script-sm{font-family:'Great Vibes',cursive;display:block;font-size:1.9rem;color:var(--gold);font-weight:400}
+.section-intro{text-align:center;color:var(--muted);max-width:620px;margin:0 auto 1.6rem}
+.grid{columns:3 280px;column-gap:1rem}
+.grid figure{margin:0 0 1rem;break-inside:avoid;border:1px solid #e7dfcc;background:#fff;padding:.45rem}
+.grid img{width:100%;display:block;cursor:zoom-in}
+.grid figcaption{font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--navy);
+  text-align:center;padding:.45rem .2rem .2rem}
+.video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem}
+.video-grid figure{margin:0;border:1px solid #e7dfcc;background:#fff;padding:.45rem}
+.video-grid video{width:100%;display:block;background:#000}
+.video-grid figcaption{font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--navy);text-align:center;padding:.45rem}
+.thanks{text-align:center;padding:3.5rem 1rem 2.5rem}
+.thanks .script{font-size:3rem;color:var(--gold)}
+.thanks p{font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--navy);margin:.2rem}
+.thanks-name{font-size:1rem !important;color:var(--muted) !important}
+footer{text-align:center;color:var(--muted);padding:1.5rem 1rem 2.5rem;border-top:1px solid var(--gold-soft);font-size:.92rem}
+.lightbox{position:fixed;inset:0;background:rgba(20,26,40,.96);z-index:20;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;padding:1rem}
+.lightbox[hidden]{display:none}
+.lightbox img{max-width:94vw;max-height:76vh;object-fit:contain}
+#lb-cap{color:var(--ivory);font-family:'Cormorant Garamond',serif;font-size:1.2rem;margin:.8rem 0 .3rem;text-align:center}
+#lb-download{color:var(--gold-soft);font-size:.85rem;letter-spacing:.1em;text-transform:uppercase}
+.lb-close,.lb-prev,.lb-next{position:absolute;background:none;border:none;color:var(--ivory);font-size:2.2rem;cursor:pointer}
+.lb-close{top:.6rem;right:1rem}.lb-prev{left:.6rem;top:50%}.lb-next{right:.6rem;top:50%}
+@media (max-width:640px){.grid{columns:2 160px;column-gap:.6rem}.grid figure{margin-bottom:.6rem;padding:.3rem}}
