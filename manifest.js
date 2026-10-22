@@ -12,19 +12,11 @@ window.GALLERY = {
     { file: "assets/photos/07-font-wide.jpg",            caption: "Held over the font by his godmother", section: "mission" },
     { file: "assets/photos/03-family-mission-arch.jpg",  caption: "The family under the garden arch at the mission", section: "family" },
     { file: "assets/photos/11-welcome-sign.jpg",         caption: "Mi Bautizo — the welcome sign at the celebration", section: "celebration" },
-    { file: "assets/photos/10-favor-card.jpg",           caption: "Thank you for celebrating with us", section: "celebration" },
     { file: "assets/photos/12-party-table.jpg",          caption: "The celebration tables, white florals and gold chairs", section: "celebration" },
-    { file: "assets/photos/16-slideshow-screen.jpg",     caption: "Iván's baby photos on the big screen above the dance floor", section: "celebration" },
-    { file: "assets/photos/15-costumes-evening.jpg",     caption: "The farm animals came out — Iván with the cow and the pig", section: "celebration" },
-    { file: "assets/photos/13-dance-evening.jpg",        caption: "Dancing under the string lights", section: "celebration" }
   ],
   videos: [
     { file: "assets/videos/font-pouring.mp4",       poster: "assets/photos/06-font-blessing.jpg",        caption: "The baptism at the font, the water poured over Iván (0:22)" },
     { file: "assets/videos/mission-tour.mp4",       poster: "assets/photos/poster-mission-tour.jpg",     caption: "The mission grounds after the ceremony (1:09)" },
-    { file: "assets/videos/mission-museum.mp4",     poster: "assets/photos/poster-mission-museum.jpg",   caption: "Inside the mission museum (0:10)" },
-    { file: "assets/videos/party-afternoon.mp4",    poster: "assets/photos/poster-party-afternoon.jpg",  caption: "The celebration in the afternoon (0:14)" },
-    { file: "assets/videos/evening-string-lights.mp4", poster: "assets/photos/poster-evening-string-lights.jpg", caption: "Evening under the string lights, Iván in the middle of it all (0:51)" },
-    { file: "assets/videos/dance-floor.mp4",        poster: "assets/photos/poster-dance-floor.jpg",      caption: "The dance floor at night (1:24)" }
   ]
 };
 window.SECTIONS = [
