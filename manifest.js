@@ -16,7 +16,6 @@ window.GALLERY = {
   ],
   videos: [
     { file: "assets/videos/font-pouring.mp4",       poster: "assets/photos/06-font-blessing.jpg",        caption: "The baptism at the font, the water poured over Iván (0:22)" },
-    { file: "assets/videos/mission-tour.mp4",       poster: "assets/photos/poster-mission-tour.jpg",     caption: "The mission grounds after the ceremony (1:09)" },
   ]
 };
 window.SECTIONS = [
